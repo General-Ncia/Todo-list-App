@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-color: #000430;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #171c48;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(31, 221, 221);
+    border-radius: 8px;
+    transition: background-color ease-in-out, transform ease-in-out;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: #EA40A4;
+    transform: scale(1.1);
+    opacity: 0.75;
+    color: #f4f4f4;
+    
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.div-style {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    
+    justify-content: space-between;
+}
+
+.delete_button{
+    
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    margin-left: 3rem;
+    cursor: pointer;
+   
+}
+.delete_button:hover{
+    background-color: red;
+    opacity: 1;
+}
+
+.complete_button{
+    
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.complete_button:hover{
+    background-color: green;
+    opacity: 1;
+}
+
+.content_div{
+    background-color: rgb(86, 27, 141), ;
+    border-radius: 5px;
+    color: white;
+    padding: 1rem;
+}
+
+@media (max-width:320px) {
+    .container {
+        max-width: 320px;
+        /* margin: 50px auto; */
+        padding: 15px;
+        background: #171c48;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .container h1{
+        text-align: start;
+    }
+
+    .complete_button{
+    
+        background-color: green;
+        color: white;
+        border-radius: 8px;
+        margin-left: 0.2rem;
+        cursor: pointer;
+        padding: 1px;
+    }
+
+    .delete_button{
+    
+        background-color: red;
+        color: white;
+        border-radius: 8px;
+        margin-left: 0.5rem;
+        cursor: pointer;
+        padding: 3px;
+       
+    }
+
+    .content_div{
+        background-color: rgb(86, 27, 141), ;
+        border-radius: 5px;
+        color: white;
+        padding: 1rem;
+    }
+}
+
+@media (min-width:375px){
+    .container{
+        max-width: 375px;
+    }
+    
+    
+    
+    .complete_button{
+    
+        background-color: green;
+        color: white;
+        border-radius: 8px;
+        margin-left: 0.5rem;
+        cursor: pointer;
+        padding: 1px;
+    }
+
+    .delete_button{
+    
+        background-color: red;
+        color: white;
+        border-radius: 8px;
+        margin-left:0.5rem;
+        cursor: pointer;
+        padding: 3px;
+       
+    }
+
+    .container h1{
+        text-align: start;
+    }
+    
+
+}
+
+@media (min-width:425px) {
+
+    .container{
+        max-width: 425px;
+    }
+    .complete_button{
+    
+        background-color: green;
+        color: white;
+        border-radius: 8px;
+        margin-left: 0.9rem;
+        cursor: pointer;
+        padding: 5px;
+    }
+
+    .delete_button{
+    
+        background-color: red;
+        color: white;
+        border-radius: 8px;
+        margin-left:0.5rem;
+        cursor: pointer;
+        padding: 5px;
+       
+    }
+     
+}
+
+@media (min-width:768px) {
+
+    .container{
+        max-width: 700px;
+        margin-top: 20px;
+    }
+
+    .delete_button{
+    
+        background-color: red;
+        color: white;
+        border-radius: 8px;
+        margin-left:1rem;
+        cursor: pointer;
+        padding: 10px;
+       
+    }
+
+    .complete_button{
+    
+        background-color: green;
+        color: white;
+        border-radius: 8px;
+        margin-left: 1rem;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    
+}
+
+@media (min-width:1024px) {
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 50px;
+        background: #171c48;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .delete_button{
+    
+        background-color: red;
+        color: white;
+        border-radius: 8px;
+        margin-left: 3rem;
+        cursor: pointer;
+       
+    }
+}
+
